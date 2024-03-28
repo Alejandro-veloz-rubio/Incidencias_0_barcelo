@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node APP/server.js"
   },
   "keywords": [],
   "author": "",
@@ -16,3 +17,4 @@
     "mysql": "^2.18.1"
   }
 }
+
