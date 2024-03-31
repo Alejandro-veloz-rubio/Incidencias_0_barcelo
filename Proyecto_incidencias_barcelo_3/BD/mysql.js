@@ -1,6 +1,6 @@
 var mysql = require('mysql');
 
-var connection = mysql.createConnection('mysql://root:joXemcxAALNrYNSZSxqjmGoIXZBVNVLR@monorail.proxy.rlwy.net:51957/railway');
+var connection = mysql.createPool('mysql://root:joXemcxAALNrYNSZSxqjmGoIXZBVNVLR@monorail.proxy.rlwy.net:51957/railway');
 
 connection.getConnection(function(err){
     if(err){
